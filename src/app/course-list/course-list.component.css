@@ -1,0 +1,88 @@
+
+.course-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+  
+  h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+
+  .wishlist {
+    margin: 16px auto; /* horizontally center */
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-left: 6px solid #4CAF50;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    width: 100%; /* optional, for responsiveness */
+    text-align: center;
+}
+
+.wishlist h4 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* .wishlist::before {
+    content: "★";
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    vertical-align: middle;
+} */
+
+.wishlist-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.wishlist-tags span {
+  background-color: #922a27;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-flex; /* Changed to inline-flex */
+  align-items: center;  /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  white-space: nowrap;
+  margin: 4px;
+  position: relative;
+  gap: 6px; /* Space between text and button */
+}
+
+.wishlist-tags span button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.wishlist-tags span button:hover {
+  color: #5f1010;
+}
+
+
+  
+
+  

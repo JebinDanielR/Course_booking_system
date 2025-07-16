@@ -1,0 +1,28 @@
+
+<div class="course-item">
+    <img [ngStyle]="{'border':course.soldOut ? '4px solid red' :'none'}" [src]="course.img" alt="">
+    <h3>{{course.name}}</h3>
+    <p>{{course.desc}}</p>
+    <p [ngStyle]="{ 
+    'background-color':course.price < 300 && !course.soldOut ? 'lightgrey' :'none',
+    'color':course.price < 300 && !course.soldOut ? 'black' :'none',
+    'font-weight':course.price < 300 && !course.soldOut ? 'bold' :'none',
+    'text-decoration': course.soldOut ? 'line-through':'none'}"> {{course.price | currency:'INR':'symbol':'1.3-3'}}</p>
+    <p>{{course.date | date:'longDate'}}</p>
+    <p [hidden]="!course.soldOut" [ngStyle]="{'color':course.soldOut ? 'red' :'none'}">Sold Out</p>
+    <p class="on-sale" [hidden]="!course.onSale" [ngStyle]="{'background-color':course.onSale ? 'green' :'none'}">On Sale</p>
+
+    @if(course.price<300 && !course.soldOut){
+        <div class="special-offer">Special Offer</div>
+    }
+    
+    <button (click)="viewDetails(course.id)" [disabled]="course.soldOut"
+    [ngStyle]="{'background-color':course.soldOut ? 'gray' :'none',
+    'color':course.soldOut ? 'black' :'none'}">View Details</button>
+    <button (click)="onWishList()">
+        Add to Wishlist
+    </button>
+    <button (click)="onCourseBooked()" [disabled]="course.soldOut"
+    [ngStyle]="{'background-color':course.soldOut ? 'gray' :'none',
+    'color':course.soldOut ? 'black' :'none'}">Book Course</button>
+</div>

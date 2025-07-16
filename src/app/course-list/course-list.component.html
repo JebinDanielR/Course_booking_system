@@ -1,0 +1,21 @@
+<div class="courses">
+    <h2>{{title}}</h2>
+    <div [hidden]="wishListCourses.length < 1" class="wishlist">
+        <div class="wishlist-tags">
+            <h4>My Wish-List :</h4> 
+            @for (favCourse of wishListCourses; track wishListCourses.length)
+            {
+             <span>{{favCourse}}<button (click)="removeFromWishList(favCourse)"> X </button></span>
+            }
+        </div>
+    </div>
+    <div class="course-items">
+        @for (course of courses; track course.id) 
+        {
+        <app-course-card [course]="course"
+        (courseBooked)="onCourseBooked($event)"
+        (wishList)="onWishList($event)"> 
+        </app-course-card>
+        }
+    </div>
+</div>

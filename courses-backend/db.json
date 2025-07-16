@@ -1,0 +1,206 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "desc": "Basic concepts of angular",
+      "price": 100,
+      "date": "2025-05-26",
+      "soldOut": false,
+      "onSale": true,
+      "img": "angular.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Advanced Angular",
+      "desc": "Advanced concepts of angular",
+      "price": 400,
+      "date": "2025-05-27",
+      "soldOut": false,
+      "onSale": true,
+      "img": "angular-advanced.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Frontend",
+      "desc": "Concepts of HTML & CSS",
+      "price": 300,
+      "date": "2025-05-28",
+      "soldOut": true,
+      "onSale": false,
+      "img": "html-css.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Javascript",
+      "desc": "Concepts of Javascript",
+      "price": 200,
+      "date": "2025-05-29",
+      "soldOut": false,
+      "onSale": true,
+      "img": "javascript.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Java",
+      "desc": "Concepts of Java and SpringBoot",
+      "price": 200,
+      "date": "2025-05-30",
+      "soldOut": true,
+      "onSale": false,
+      "img": "java.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Python",
+      "desc": "Concepts of Python",
+      "price": 350,
+      "date": "2025-05-31",
+      "soldOut": false,
+      "onSale": true,
+      "img": "python.png"
+    },
+    {
+      "id": 1749641207931,
+      "name": "Basics of AWS ",
+      "desc": "Basic Concepts of AWS",
+      "price": 300,
+      "date": "2025-06-25",
+      "soldOut": false,
+      "onSale": true,
+      "img": "aws.jpg"
+    },
+    {
+      "id": 1749641485309,
+      "name": "Basics of AWS ",
+      "desc": "Basic Concepts of AWS",
+      "price": 100,
+      "date": "2025-06-25",
+      "soldOut": true,
+      "onSale": false,
+      "img": "aws.jpg"
+    },
+    {
+      "id": 1749798142954,
+      "name": "Basics of AWS ",
+      "desc": "dfghn",
+      "price": 100,
+      "date": "2025-06-28",
+      "soldOut": false,
+      "onSale": true,
+      "img": "aws.jpg"
+    },
+    {
+      "id": 1750076265796,
+      "name": "Basics of AWS ",
+      "desc": "Basic Concepts of AWS",
+      "price": 100,
+      "date": "0456-04-23",
+      "soldOut": false,
+      "onSale": true,
+      "img": "aws.jpg"
+    },
+    {
+      "id": 1750333333116,
+      "name": "wsdfghjm",
+      "desc": "wedfgvbh",
+      "price": 234,
+      "date": "0677-04-23",
+      "soldOut": false,
+      "onSale": true,
+      "img": "aws.jpg"
+    }
+  ],
+  "students": [
+    {
+      "id": 1749625174631,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "1"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749625217876,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "2"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749625249399,
+      "name": "deril",
+      "email": "deril@gmail.com",
+      "enrolledCourseIds": [
+        "1"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749639291173,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "1749638795169"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749639326577,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "4"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749720514901,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "4"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1749798046069,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "1"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1750076326020,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "4"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1750333364088,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "6"
+      ],
+      "enrolledCourses": []
+    },
+    {
+      "id": 1750403045612,
+      "name": "Jebin Daniel R",
+      "email": "jebinderil@gmail.com",
+      "enrolledCourseIds": [
+        "4"
+      ],
+      "enrolledCourses": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+/* Base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #1e1e2f;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #1e1e2f;
+}
+
+/* Loading and general paragraphs */
+p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Error messages */
+.error {
+    background-color: #ffe5e5;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 5px;
+    color: #b30000;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(30, 30, 47, 0.1);
+    color: #1e1e2f;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table thead {
+    background-color: #1e1e2f;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* No students found */
+p:last-child {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
